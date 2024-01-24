@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class GiaiPTB1 {
+public class Giai_PTB1 {
 
 	/**
 	 * @param args
