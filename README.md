@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Adam Pithenwala</h1>
-<h3 align="center">Student at MITS, Gwalior🌟.</h3>
+<h1 align="center">Hi 👋, I'm Huynh Trung Hieu</h1>
+<h3 align="center">Student at Nha Trang University🌟.</h3>
 
 <br>
 
@@ -14,7 +14,7 @@
 
 - 🌱 I’m currently learning Web Development and other programming languages
 
-- 📫 How to reach me **adampithewan@gmail.com**
+- 📫 How to reach me **hieu01645369512@gmail.com**
 
 - ⚡ Fun fact :- Food and Music🎵 are the reasons to live.
 
@@ -22,11 +22,9 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-  <a href="https://www.linkedin.com/in/adam-pithewan/" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"
-      alt="adam pithewan" height="30" width="40" /></a>
-  <a href="https://fb.com/adam pithen wala" target="blank"><img align="center"
-      src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/facebook.svg"
+  
+  <a target="blank"><img align="center"
+      src="https://www.facebook.com/profile.php?id=100078969199950"
       alt="adam pithen wala" height="30" width="40" /></a>
   <a href="https://instagram.com/_._.adam._" target="blank"><img align="center"
       src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg"
