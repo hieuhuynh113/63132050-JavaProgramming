@@ -137,13 +137,13 @@ public class InterfaceBMI {
 
                 // Display BMI description
                 if (bmi < 18.5) {
-                    lblNewLabel_5.setText("Underweight");
+                    lblNewLabel_5.setText("Nhẹ cân");
                 } else if (bmi < 25) {
-                    lblNewLabel_5.setText("Normal weight");
+                    lblNewLabel_5.setText("Cân nặng bình thường");
                 } else if (bmi < 30) {
-                    lblNewLabel_5.setText("Overweight");
+                    lblNewLabel_5.setText("Thừa cân");
                 } else {
-                    lblNewLabel_5.setText("Obesity");
+                    lblNewLabel_5.setText("Béo phì");
                 }
             }
         });
