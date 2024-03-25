@@ -134,6 +134,16 @@ public class InterfaceBMI {
 				double weight = Double.parseDouble(textField_1.getText());
 				double bmi = weight / (height * height);
 				textField_2.setText(String.format("%.2f", bmi));
+				
+				if (bmi < 18.5) {
+					lbNewLabel_5.setText("Nhẹ cân");
+				} else if (bmi > 18.5 && bmi < 24.9) {
+					lbNewLabel_5.setText("Cân nặng bình thường");
+				} else if (bmi > 25 && bmi < 29.9) {
+					lbNewLabel_5.setText("Thừa cân");
+				} else {
+					lbNewLabel_5.setText("Béo phì");
+				}
 			}
 		});
 		btnCalculate.setFont(new Font("Tahoma", Font.PLAIN, 13));
