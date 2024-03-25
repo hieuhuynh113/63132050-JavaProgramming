@@ -128,6 +128,14 @@ public class InterfaceBMI {
 		panel_1.add(btnClear);
 		
 		JButton btnCalculate = new JButton("Calculate");
+		btnCalculate.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				double height = Double.parseDouble(textField.getText());
+				double weight = Double.parseDouble(textField_1.getText());
+				double bmi = weight / (height * height);
+				textField_2.setText(String.format("%.2f", bmi));
+			}
+		});
 		btnCalculate.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnCalculate.setBounds(104, 195, 85, 35);
 		panel_1.add(btnCalculate);
