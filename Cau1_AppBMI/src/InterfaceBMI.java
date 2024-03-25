@@ -18,6 +18,7 @@ public class InterfaceBMI {
 	private JTextField textField;
 	private JTextField textField_1;
 	private JTextField textField_2;
+	private JLabel lbNewLabel_5;
 
 	/**
 	 * Launch the application.
@@ -106,6 +107,7 @@ public class InterfaceBMI {
 		JButton btnNewButton = new JButton("Exit");
 		btnNewButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				System.exit(0);
 			}
 		});
 		btnNewButton.setFont(new Font("Tahoma", Font.PLAIN, 13));
