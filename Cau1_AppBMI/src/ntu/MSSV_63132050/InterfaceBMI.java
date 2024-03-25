@@ -1,3 +1,4 @@
+package ntu.MSSV_63132050;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
