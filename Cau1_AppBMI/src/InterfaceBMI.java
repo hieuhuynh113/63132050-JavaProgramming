@@ -137,12 +137,16 @@ public class InterfaceBMI {
 				
 				if (bmi < 18.5) {
 					lbNewLabel_5.setText("Nhẹ cân");
+					textField_2.setBackground(Color.BLUE);
 				} else if (bmi > 18.5 && bmi < 24.9) {
 					lbNewLabel_5.setText("Cân nặng bình thường");
+					textField_2.setBackground(Color.GREEN);
 				} else if (bmi > 25 && bmi < 29.9) {
 					lbNewLabel_5.setText("Thừa cân");
+					textField_2.setBackground(Color.YELLOW);
 				} else {
 					lbNewLabel_5.setText("Béo phì");
+					textField_2.setBackground(Color.RED);
 				}
 			}
 		});
