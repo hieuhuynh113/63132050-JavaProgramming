@@ -117,6 +117,10 @@ public class InterfaceBMI {
 		JButton btnClear = new JButton("Clear");
 		btnClear.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				textField.setText("");
+				textField_1.setText("");
+				textField_2.setText("");
+				lbNewLabel_5.setText("");
 			}
 		});
 		btnClear.setFont(new Font("Tahoma", Font.PLAIN, 13));
